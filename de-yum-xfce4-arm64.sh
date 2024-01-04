@@ -8,11 +8,11 @@ yum groupinstall 'Xfce' -y
 yum install tigervnc-server dbus-x11 -y
 
 #Setup filesnya
-#sources dari anlinux
+#sources my backup
 mkdir ~/.vnc
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Yum/Fedora/Xfce4/xstartup --no-check-certificate -P ~/.vnc/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Yum/Fedora/Xfce4/vncserver-start --no-check-certificate -P /usr/local/bin/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Yum/Fedora/Xfce4/vncserver-stop --no-check-certificate -P /usr/local/bin/
+wget https://raw.githubusercontent.com/nobita-gamerz/Desk-Xface4-centOS7-arm64/main/xstartup --no-check-certificate -P ~/.vnc/
+wget https://raw.githubusercontent.com/nobita-gamerz/Desk-Xface4-centOS7-arm64/main/vncserver-start --no-check-certificate -P /usr/local/bin/
+wget https://raw.githubusercontent.com/nobita-gamerz/Desk-Xface4-centOS7-arm64/main/vncserver-stop --no-check-certificate -P /usr/local/bin/
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vncserver-start
 chmod +x /usr/local/bin/vncserver-stop
