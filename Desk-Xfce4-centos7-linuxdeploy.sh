@@ -4,7 +4,7 @@
 yum update -y
 yum upgrade -y
 yum install epel-release -y
-yum groupinstall 'Xfce4' -y
+yum groupinstall 'Xfce' -y
 yum install tigervnc-server dbus-x11 -y
 
 #Setup filesnya
