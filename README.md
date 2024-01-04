@@ -16,6 +16,8 @@ wget https://raw.githubusercontent.com/nobita-gamerz/Desk-Xface4-centOS7-arm64/m
 <br>
 chmod +x Desk-Xfce4-centos7-linuxdeploy.sh
 <br>
+or
+<br>
 chmod +x de-yum-xfce4-arm64.sh
 <br>
 ./Desk-Xfce4-centos7-linuxdeploy.sh
