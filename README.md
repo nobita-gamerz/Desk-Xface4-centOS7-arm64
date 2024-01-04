@@ -19,5 +19,9 @@ chmod +x Desk-Xfce4-centos7-linuxdeploy.sh
 chmod +x de-yum-xfce4-arm64.sh
 <br>
 ./Desk-Xfce4-centos7-linuxdeploy.sh
+<br>
+or
+<br>
+./de-yum-xfce4-arm64.sh
 # wait for installation 😁
 ☕ coffee and 🍰 cake
